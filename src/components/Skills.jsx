@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section id="skills" className="relative z-10 py-20 px-6 section-alt">
       <div className="max-w-5xl mx-auto">
-        <SectionHeader label="// Skills" title="Technical Arsenal" />
+        <SectionHeader label="// Skills" title="Technical Skills" />
 
         <div className="grid sm:grid-cols-2 gap-5">
           {skills.map((skill, i) => {
@@ -45,3 +45,4 @@ export default function Skills() {
     </section>
   )
 }
+
