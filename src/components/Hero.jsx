@@ -1,4 +1,4 @@
-import { Mail, Briefcase, Linkedin, ExternalLink, ChevronDown } from 'lucide-react'
+import { Mail, Briefcase, Linkedin, Github, ExternalLink, ChevronDown } from 'lucide-react'
 import { useTypingEffect } from '../hooks/useTypingEffect'
 import { personalInfo, roles } from '../data/portfolio'
 
@@ -74,6 +74,14 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-transparent text-primary font-semibold text-sm tracking-wide rounded-lg border border-primary/30 hover:bg-primary-dim hover:border-primary/50 transition-all duration-300 no-underline"
           >
             <Linkedin size={16} /> LinkedIn <ExternalLink size={12} />
+          </a>
+          <a
+            href={personalInfo.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-transparent text-primary font-semibold text-sm tracking-wide rounded-lg border border-primary/30 hover:bg-primary-dim hover:border-primary/50 transition-all duration-300 no-underline"
+          >
+            <Github size={16} /> GitHub <ExternalLink size={12} />
           </a>
         </div>
       </div>
